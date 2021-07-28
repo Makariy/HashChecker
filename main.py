@@ -74,7 +74,6 @@ class FilesChecker:
 
 
 if __name__ == '__main__':
-    print(sys.argv)
     if len(sys.argv) > 2:
         files = HashFileParser.get_files(sys.argv[1], sys.argv[2])
     else:
